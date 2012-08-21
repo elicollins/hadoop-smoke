@@ -1,0 +1,8 @@
+DISTRO=cdh3
+HADOOP_VERSION=hadoop-0.20.2-cdh3u3-SNAPSHOT
+# SRC and TARBALL are used xjust for deploy
+HADOOP_SRC=/home/eli/src/cloudera/hadoop1
+HADOOP_TARBALL=$HADOOP_SRC/build/$HADOOP_VERSION.tar.gz
+DEPLOY_HOME=/deploy
+HADOOP_HOME=$DEPLOY_HOME/$HADOOP_VERSION
+USER=eli
